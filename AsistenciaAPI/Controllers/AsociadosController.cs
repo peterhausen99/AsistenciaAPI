@@ -68,7 +68,7 @@ namespace AsistenciaAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult EliminarAsociado(int id)
+        public IActionResult EliminarAsociado(string id)
         {
             var asociado = _context.Asociados.Find(id);
             if (asociado == null)
