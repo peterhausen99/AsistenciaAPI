@@ -20,3 +20,4 @@ VALUES
 
 -- Consultar datos
 SELECT * FROM Asociados;
+swaasdasd
